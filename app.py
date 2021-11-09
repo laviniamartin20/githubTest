@@ -11,3 +11,17 @@ y = json.loads(x)
 
 #result as a python dictionary
 print(y["city"])
+
+#convert from python to JSON
+
+# a Python object (dict):
+a = {
+"name": "John",
+"age": 30,
+"city": "New York"
+     }
+
+# convert into json
+b = json.dumps(a)
+
+print(b)
